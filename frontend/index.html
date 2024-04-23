@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Bienvenue sur notre site</h2>
+        <nav>
+            <ul>
+                <li><a href="connexion.html">Se connecter</a></li>
+                <li><a href="inscription.html">S'inscrire</a></li>
+                <li><a href="afficher_tous_les_produits.php">Afficher tous les produits</a></li>
+                <li><a href="afficher_produit.php?id=1">Afficher un seul produit</a></li>
+                <li>
+                    <form action="rechercher_produits.php" method="get">
+                        <input type="text" name="q" placeholder="Rechercher des produits">
+                        <input type="submit" value="Rechercher">
+                    </form>
+                </li>
+                <li><a href="ajouter_au_panier.php?id=1">Ajouter un produit au panier</a></li>
+                <li><a href="url_statistiques.php?id=1">Accéder à l'URL de statistiques</a></li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>
