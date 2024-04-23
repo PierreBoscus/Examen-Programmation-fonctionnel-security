@@ -7,7 +7,8 @@
 
 # Ignorer le répertoire de dépendances
 /node_modules
-
+/backend/node_modules
+/frontend/node_modules
 # Ignorer les fichiers de configuration personnelle
 config.ini
 .env
