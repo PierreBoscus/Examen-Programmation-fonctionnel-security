@@ -1,0 +1,13 @@
+# Ignorer les fichiers temporaires
+*.tmp
+
+# Ignorer les fichiers de compilation
+*.o
+*.out
+
+# Ignorer le répertoire de dépendances
+/node_modules
+
+# Ignorer les fichiers de configuration personnelle
+config.ini
+.env
